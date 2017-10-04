@@ -44,7 +44,6 @@
 
   We obtain the Principal Component Analysis of data set:
   
-  ![(Fig 2)](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_1/Fig2.png)
   
  The outliers are the row 124 and, maybe, the row 19.
  
