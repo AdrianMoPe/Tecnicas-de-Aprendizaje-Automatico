@@ -46,5 +46,5 @@
   
   ![(Fig 2)](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_1/Fig2.png)
   
-  Here we have one outlier the row 124 and, maybe, the row 19.
+ The outliers are the row 124 and, maybe, the row 19.
  
