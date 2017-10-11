@@ -48,5 +48,5 @@
   
   ![(Fig 3)]( https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_1/Fig3.png)
     
- The outliers are the row 124 and, maybe, the row 19.
+ The outliers are the row 124(125 in our data.csv) and, maybe, the row 19(20).
  
