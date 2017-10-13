@@ -17,7 +17,7 @@ Also, in order to obtain more information we compute the mean distance between e
 To build the Dendogram we group data into clusters according to their distances. As  method we have used ‘complete’ because is the 
 best for our data, because ‘Single’ is too sensitive with the outliers. With this we have obtained 8 groups. 
 
-## Step3: Cut the dendrogram and characterize the obtained groups.
+## Step 3: Cut the dendrogram and characterize the obtained groups.
 
 To generate the Dendograma and the characterization we have decide to effect the cut  over 6, because is the best level that adapts
 to our data. 
