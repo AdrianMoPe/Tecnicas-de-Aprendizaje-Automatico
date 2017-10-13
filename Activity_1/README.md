@@ -14,7 +14,9 @@
 
   We obtain the correlation matrix:
   
-   ![(Fig 1)](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_1/Fig1.png)
+  ![(Fig 1)](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_1/Fig1.png)
+   
+  ![(Fig 2)]( https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_1/Fig1.1.png)
   
   
   Then we can observe that the features corresponding with the columns: 0,1,2 and 3 are correlating (Must be remembered that we didn’t take first 4 columns, so that this features are: 4,5,6 and 7 in original datata set). 
@@ -44,7 +46,7 @@
 
   We obtain the Principal Component Analysis of data set:
   
-  ![(Fig 2)](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_1/Fig2.png)
-  
- The outliers are the row 124 and, maybe, the row 19.
+  ![(Fig 3)]( https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_1/Fig3.png)
+    
+ The outliers are the row 124(125 in our data.csv) and, maybe, the row 19(20).
  
