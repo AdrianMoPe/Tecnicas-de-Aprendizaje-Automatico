@@ -23,7 +23,7 @@ Based in this tests, we decided choose ‘k-means++’ and 3 clusters because it
 
 To highlight, the Silhouette Coefficient is 0.22, this means that in our data set there is a lot of overlap because the value is approaching to 0.
 
-## Step 3 :Execute clustering.
+## Step 3: Execute clustering.
 
 Although KMeans algorithm is applied to our normalized data set, we use PCA to represent graphically our data in order to see more clearly the 3 groups.  
  ![(Fig 4)](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_3/Images/Fig4.png)
