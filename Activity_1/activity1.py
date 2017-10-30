@@ -18,10 +18,8 @@ from pylab import pcolor, show, colorbar, xticks, yticks
 import seaborn as sns
 from pandas import *
 
-''' 
-'''
 
-# --- LOAD THE DATA ---
+# --- LOAD DATA ---
 f = codecs.open("train.csv", "r", "utf-8")
 iquito = []
 try:
@@ -72,12 +70,10 @@ for line in iquito:
         iquitoCorr.append(map(float, row))
  
 # plotting the correlation matrix
-#http://glowingpython.blogspot.com.es/2012/10/visualizing-correlation-matrices.html
 R = corrcoef(transpose(iquitoCorr))
 
 pandas.set_option('expand_frame_repr', False)
 print pandas.DataFrame(transpose(R))
-
 
 pcolor(R)
 colorbar()
@@ -86,7 +82,6 @@ xticks(arange(0,20),range(0,20))
 
 show()
 
-# http://stanford.edu/~mwaskom/software/seaborn/examples/many_pairwise_correlations.html
 # Generate a mask for the upper triangle
 sns.set(style="white")
 mask = np.zeros_like(R, dtype=np.bool)
@@ -111,17 +106,17 @@ for line in iquito:
         data = [float(el) for el in row]
         iquitoPCA.append(data)
      
-#1. Normalization of the data
+# Normalization of the data
 min_max_scaler = preprocessing.MinMaxScaler()
 iquitoPCA = min_max_scaler.fit_transform(iquitoPCA)
        
-#2. PCA Estimation
+# PCA Estimation
 estimator = PCA (n_components = 2)
 X_pca = estimator.fit_transform(iquitoPCA)
 
 print(estimator.explained_variance_ratio_) 
 
-#3.  plot 
+# plot 
 numbers = np.arange(len(X_pca))
 fig, ax = plt.subplots()
 for i in range(len(X_pca)):
@@ -131,10 +126,4 @@ plt.ylim(-1.2, 1.5)
 ax.grid(True)
 fig.tight_layout()
 plt.show()
-
-
-
-
-
-
 
