@@ -1,5 +1,4 @@
 
-# Machine Learning Techniques
 
 Subject: Machine Learning Techniques.  
 Year: 2017.  
