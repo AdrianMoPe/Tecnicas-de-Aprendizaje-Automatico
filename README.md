@@ -3,7 +3,7 @@
 Subject: Machine Learning Techniques.  
 Year: 2017.  
 Course: 4º.  
-Faculty of Computer Science, University of Castilla-La Mancha, Spain.
+Faculty of Computer Science, University of Castilla-La Mancha, Ciudad Real - Spain.
 
 # Activities.  
 
