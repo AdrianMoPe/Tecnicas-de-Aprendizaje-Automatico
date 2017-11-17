@@ -1,17 +1,20 @@
 # Activity 5.
 
+## Step 1: Extraction of data.
 
 In this activity we have used both data set independently. One is the one corresponding to Iquitos between 2000 and 2010 and the other is San Juan between 1990 and 2008.
 
 Like in the other activities we remove “year, “week” and “city” but now we add “weekofyear” to the data set. Those records that were empty have been filled with the average of all the non-empty records of that feature.
 
+## Step 2: Data visualization.
+
 First, the heat map of the correlation matrix has been obtained to have a first view of how they are related to each other, but because it is not a decisive method we decided to use other methods to support this decision later. 
 
-### Iquitos
+### Iquitos.
 
  ![(Fig 1)](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_5/Images/Iquitos/Fig1.png)
  
-### San Juan
+### San Juan.
 
  ![(Fig 1)](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_5/Images/San%20Juan/Fig1.png)
  
@@ -19,18 +22,19 @@ In order to detect outliers the PCA has been displayed. As some of the data seem
 
 It has been decided to consider all those elements that are not part of the main group (Red in Iquitos and Azul in San Juan) as outliers, and then they have been eliminated from the data set.
 
-### Iquitos
+### Iquitos.
 
  ![(Fig 2)](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_5/Images/Iquitos/Fig2.png)
   ![(Fig 3)](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_5/Images/Iquitos/Fig3.png)
 
-### San Juan
+### San Juan.
 
  ![(Fig 2)](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_5/Images/San%20Juan/Fig2.png)
   ![(Fig 3)](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_5/Images/San%20Juan/Fig3.png)
 
- 
-Also we have performed an analysis  about the features in order to determine if is possible to delete some of them avoid overfiting. For this, the transposed correlation matrix has been obtained and hierarchical clustering has been performed on it, obtaining the following dendrograms and their subsequent representation in the PCA:
+## Step 3: Features visualization.
+
+Also we have performed an analysis about the features in order to determine if is possible to delete some of them avoid overfiting. For this, the transposed correlation matrix has been obtained and hierarchical clustering has been performed on it, obtaining the following dendrograms and their subsequent representation in the PCA:
 
 ### Iquitos
 
@@ -43,19 +47,22 @@ Also we have performed an analysis  about the features in order to determine if 
 
 We observe that some features are overlap, so we can delete those which are overlap, keeping one of each group as representative. In order to know which feature of each group is selected, we obtain the relevance of each one within the dataset (correlation of each one with the total_cases number), and we choose which had more correlation. In this way the remaining features are the following:
 
-### Iquitos || San Juan
+### Iquitos || San Juan.
 
  ![(Fig 6)](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_5/Images/Iquitos/Fig6.png) ![(Fig 6)](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_5/Images/San%20Juan/Fig6.png)
  
- Once the features have been selected, we perform cross validation analysis between our selected features and total cases, in order to select the best max_depth parameter, with range between 2 and 30.
+Once the features have been selected, we perform cross validation analysis between our selected features and total cases, in order to select the best max_depth parameter, with range between 2 and 30, to study our selected features. 
  
- ### Iquitos || San Juan
+ ### Iquitos || San Juan.
 
  ![(Fig 7)](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_5/Images/Iquitos/Fig7.png) ![(Fig 7)](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_5/Images/San%20Juan/Fig7.png)
 
-Max_depth: 2
+Max_depth: 2.
   
-### Iquitos
+  
+## Step 4: Features selection.
+
+### Iquitos.
 
 Feature relevance:
 reanalysis_air_temp_k -> 0.0901639
@@ -65,7 +72,7 @@ reanalysis_specific_humidity_g_per_kg -> 0.803279
 
 With this we can determine that reanalysis_air_temp_k, reanalysis_dew_point_temp_k and reanalysis_specific_humidity_g_per_kg are the most relevant features to Iquitos.
 
-### San Juan
+### San Juan.
 
 Feature relevance: 
 weekofyear -> 0.869811
