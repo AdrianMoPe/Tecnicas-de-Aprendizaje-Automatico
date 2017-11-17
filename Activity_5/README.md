@@ -70,7 +70,7 @@ reanalysis_dew_point_temp_k -> 0.106557
 reanalysis_relative_humidity_percent -> 0  
 reanalysis_specific_humidity_g_per_kg -> 0.803279  
 
-With this we can determine that reanalysis_air_temp_k, reanalysis_dew_point_temp_k and reanalysis_specific_humidity_g_per_kg are the most relevant features to Iquitos.
+With this we can determine that "reanalysis_air_temp_k", "reanalysis_dew_point_temp_k" and "reanalysis_specific_humidity_g_per_kg" are the most relevant features to Iquitos.
 
 ### San Juan.
 
@@ -82,4 +82,4 @@ reanalysis_dew_point_temp_k -> 0
 reanalysis_specific_humidity_g_per_kg -> 0.130189  
 station_avg_temp_c -> 0
 
-Therefore the relevant features in this case are weekofyear and reanalysis_specific_humidity_g_per_kg. Since the algorithm only selects two features and we think that are insufficient, based on the correlation between features and total_cases, we have decided to select reanalysis_dew_point_temp_k feature too.
+Therefore the relevant features in this case are "weekofyear" and "reanalysis_specific_humidity_g_per_kg". In spite of the algorithm only selects two features and we think that are insufficient, based on the correlation between features and total_cases, we have decided to select "reanalysis_dew_point_temp_k" feature too.
