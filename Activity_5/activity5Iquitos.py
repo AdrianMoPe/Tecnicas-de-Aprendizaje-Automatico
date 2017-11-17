@@ -146,8 +146,8 @@ print labels
 plotdata.plotPCAClusters(X_pca,labels,cut, -8,17,-0.8,4)
 
 # load data, now we will work with pandas dataframe
-f1 = pd.read_csv("iquitoPivot.csv")
-f2 = pd.read_csv("iquitoLabels.csv")
+f1 = pd.read_csv("iquitosPivot.csv")
+f2 = pd.read_csv("iquitosLabels.csv")
 data = pd.merge(f1,f2,how='right')
 
 #delete outliers
