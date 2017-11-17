@@ -82,4 +82,4 @@ reanalysis_dew_point_temp_k -> 0
 reanalysis_specific_humidity_g_per_kg -> 0.130189  
 station_avg_temp_c -> 0
 
-Therefore the relevant features in this case are "weekofyear" and "reanalysis_specific_humidity_g_per_kg". In spite of the algorithm only selects two features and we think that are insufficient, based on the correlation between features and total_cases, we have decided to select "reanalysis_dew_point_temp_k" feature too.
+Therefore the relevant features in this case are "weekofyear" and "reanalysis_specific_humidity_g_per_kg". In spite of the algorithm only selects two features and we think that are insufficient, based on the correlation between features and "total_cases", we have decided to select "reanalysis_dew_point_temp_k" feature too.
