@@ -20,7 +20,7 @@ Once the features have been selected, we perform cross validation analysis betwe
  As it is observed the value 2 is the best value, because it obtains the lowest cv score, whereby we avoid to have overfitting in our model. 
 
 
-## Step 4: Build a decision tree mode.
+## Step 4: Build a decision tree model.
 We build our decision tree mode with max depth value of 2 and obtain the tree:
 
  ![(Fig 3)](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_4/Images/tree.png) 
