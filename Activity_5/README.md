@@ -36,12 +36,12 @@ It has been decided to consider all those elements that are not part of the main
 
 Also we have performed an analysis about the features in order to determine if is possible to delete some of them avoid overfiting. For this, the transposed correlation matrix has been obtained and hierarchical clustering has been performed on it, obtaining the following dendrograms and their subsequent representation in the PCA:
 
-### Iquitos
+### Iquitos.
 
  ![(Fig 4)](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_5/Images/Iquitos/Fig4.png)
  ![(Fig 5)](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_5/Images/Iquitos/Fig5.png)
 
-### San Juan
+### San Juan.
 
   ![(Fig 4)](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_5/Images/San%20Juan/Fig4.png) ![(Fig 5)](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_5/Images/San%20Juan/Fig5.png)
 
