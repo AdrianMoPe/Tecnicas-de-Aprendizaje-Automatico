@@ -51,7 +51,7 @@ We observe that some features are overlap, so we can delete those which are over
 
  ![(Fig 6)](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_5/Images/Iquitos/Fig6.png) ![(Fig 6)](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_5/Images/San%20Juan/Fig6.png)
  
-Once the features have been selected, we perform cross validation analysis between our selected features and total cases, in order to select the best max_depth parameter, with range between 2 and 30, to study our selected features. 
+Once the features have been selected we need to build a decision tree model but first we perform cross validation analysis (with range between 2 and 30) between our selected features and total cases, in order to select the best max_depth parameter for the decision tree model.
  
  ### Iquitos || San Juan.
 
@@ -61,6 +61,8 @@ Max_depth: 2.
   
   
 ## Step 4: Features selection.
+
+With the decision tree model we obtain this relevances: 
 
 ### Iquitos.
 
