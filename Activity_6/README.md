@@ -48,3 +48,4 @@ The model train with our data set and we obtain:
  ### San Juan
  ![(Fig 8)](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_6/images/sanJuanPrediction.png)
  
+ We upload our prediction to dataDriven and our score was 26.8486
