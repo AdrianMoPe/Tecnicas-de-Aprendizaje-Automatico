@@ -37,7 +37,7 @@ xx = np.stack(i for i in range(len(y)))
 
 for i, weights in enumerate(['uniform', 'distance']):
     total_scores = []
-    for n_neighbors in range(1,30):
+    for n_neighbors in range(1,20):
         knn = neighbors.KNeighborsRegressor(n_neighbors, weights=weights)
         knn.fit(X,y)
         scores = -cross_val_score(knn, X,y,scoring='neg_mean_absolute_error', cv=10)
