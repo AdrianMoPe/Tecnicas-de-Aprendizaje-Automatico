@@ -2,7 +2,7 @@
 
 This repository is part of the subject "Machine Learning Techniques" of the 4th course of degree in Computer Engineering from the University of Castilla-La Mancha, Ciudad real (Spain), in 2017.
 
-As activity for this subject we participated in a competition from https://www.drivendata.org/ with the objective of learning Machine Learning while working with a real case study.
+As activity for this subject we participated in a competition from https://www.drivendata.org/ with the objective of learning Machine Learning while working with a real case of study.
 
 In this competition we will try to predict the Dengue Spread in Iquitos and San Juan. For more information visit https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/
 
