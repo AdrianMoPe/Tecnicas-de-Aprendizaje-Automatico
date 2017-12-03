@@ -1,4 +1,4 @@
-# Information
+# Information.
 
 This repository is part of the subject "Machine Learning Techniques" of the 4th course of degree in Computer Engineering from the University of Castilla-La Mancha, Ciudad real (Spain), in 2017.
 
@@ -18,7 +18,7 @@ The work is divided into a series of activities that range from the visualizatio
 * [Activity 6](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/tree/master/Activity_6)
 * [Activity 7](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/tree/master/Activity_7)
 
-# Authors
+# Authors.
 
 * Adrián Mora Perela
 * Sergio Grande Murillo
