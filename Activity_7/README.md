@@ -36,6 +36,6 @@ This features were selected based on the correlation between features and 'total
  
  ## Improving our result.
  
-As a result of this improvements our score has been improved from 26.8486 to 25.0962.
+As a result of this improvements our score has been improved from 26.8486 to 24.8942.
 
  ![(Fig 3)](https://github.com/AdrianMoPe/Tecnicas-de-Aprendizaje-Automatico/blob/master/Activity_7/Images/bestScore.png)
